@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+
+    /* ------ */
+
+    --Bright--orange: hsl(31, 77%, 52%);
+    --Dark--cyan: hsl(184, 100%, 22%);
+    --Very--dark--cyan: hsl(179, 100%, 13%);
+
+    /* ------ */
+
+    --Transparent--white: hsla(0, 0%, 100%, 0.75); /*(paragraphs / parrafos)*/
+    --Very--light--gray: hsl(0, 0%, 95%); /*(background, headings, buttons) / fondo, encabezado, botones*/
+
+
+    /* ------ */
+    --paragraphs: 'Lexend Deca', sans-serif;
+    --heading:'Big Shoulders Display', cursive;
+
+}
+
+html{ 
+    font-size: 62.5%; /*1rem = 10px*/
+    box-sizing: border-box;
+}
+/* aplican border-box a todos los elementos  */
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.5rem; /*la base es de 15px*/
+}
+
+/*--------*/
+
+
